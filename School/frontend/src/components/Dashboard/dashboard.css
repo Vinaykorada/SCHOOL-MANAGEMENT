@@ -1,0 +1,46 @@
+.dashboard-container {
+  background-image: url('https://www.geniusedusoft.com/images/sms.jpg');
+  background-size: fit;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0; /* Position the navigation bar at the top of the page */
+  width: 100%;
+  
+  padding: 10px 20px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 30px;
+ text-decoration: none;
+  
+}
+
+.navigation li a:hover {
+  background-color: #555;
+}
